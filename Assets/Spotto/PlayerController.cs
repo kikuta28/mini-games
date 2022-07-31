@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(0, -0.01f, 0);
 
         // 下までいったら上へ戻る
-        if( 1 > transform.position.y )
+        if (1 > transform.position.y)
         {
             Vector3 pos = transform.position;
             pos.y = startY;
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject obj = collision.gameObject;
 
-        if( obj.name.Equals("Clear") )
+        if (obj.name.Equals("Clear"))
         {
             Debug.Log("クリアー！！");
         }
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SpottoScene");
     }
 
 }
