@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         if (isStop) return;
 
         // 毎フレーム回転させる
-        transform.Rotate(new Vector3(0, 5, 0));
+        transform.Rotate(new Vector3(0, 3, 0));
 
         // 少しづつ下へ
         transform.Translate(0, -0.01f, 0);
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         GameObject obj = collision.gameObject;
 
-        if (obj.name.Equals("Clear"))
+        if (obj.name.Equals("CollisionDetector"))
         {
             Debug.Log("クリアー！！");
         }
