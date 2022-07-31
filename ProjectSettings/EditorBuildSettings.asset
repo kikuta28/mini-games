@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SceneSelector.unity
+    guid: f2dd2f31f6e1d4fca95b27799f13e562
+  - enabled: 1
+    path: Assets/Scenes/MatoateScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SpottoScene.unity
+    guid: cc69a023831814bd99404048d72b7af9
   m_configObjects: {}
